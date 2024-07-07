@@ -1,0 +1,186 @@
+#raffle-container {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#raffle-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.raffle-cell {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e3e3e3;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.raffle-cell.marked {
+  background-color: #9e0000;
+  color: #fff;
+}
+
+.raffle-cell span {
+  display: none;
+}
+
+.raffle-cell.marked span {
+  display: inline;
+}
+
+#form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#form-container label {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+#form-container input {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+#form-container input:focus {
+  border-color: #9e0000;
+  box-shadow: 0 2px 8px rgba(158, 0, 0, 0.2);
+}
+
+#form-container button {
+  padding: 10px 20px;
+  background-color: #9e0000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+#form-container button:hover {
+  background-color: #c70000;
+  box-shadow: 0 2px 8px rgba(158, 0, 0, 0.2);
+}
+
+#selected-numbers {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#selected-numbers h2 {
+  font-size: 1.9em;
+  color: #333;
+}
+
+#number-list {
+  list-style: none;
+  padding: 0;
+}
+
+#raffle-button-container {
+  margin-top: 20px;
+}
+
+#raffle-button {
+  padding: 10px 20px;
+  background-color: #0047ab;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+#raffle-button:hover {
+  background-color: #0066cc;
+  box-shadow: 0 2px 8px rgba(0, 71, 171, 0.2);
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 1.5em;
+  color: #333;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  #raffle-grid {
+    grid-template-columns: repeat(8, 1fr);
+  }
+
+  .raffle-cell {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  #raffle-grid {
+    grid-template-columns: repeat(7, 1fr);
+  }
+
+  .raffle-cell {
+    width: 40px;
+    height: 40px;
+  }
+
+  #form-container label,
+  #form-container input,
+  #form-container button {
+    max-width: 100%;
+  }
+
+  #selected-numbers h2 {
+    font-size: 1.5em;
+  }
+
+  #number-list li {
+    font-size: 1.2em;
+  }
+}
+
+/* Estilizar mensagens de erro e sucesso */
+.message {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 1.2em;
+  display: none;
+}
+
+.message.success {
+  background-color: #4caf50;
+  color: white;
+}
+
+.message.error {
+  background-color: #f44336;
+  color: white;
+}

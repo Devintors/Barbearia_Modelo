@@ -1,0 +1,52 @@
+section#Services {
+  padding: 20px;
+  text-align: center;
+  background-color: #ffffff;
+  margin: 20px;
+}
+section#Services h2 {
+  margin-bottom: 20px;
+  font-size: 2.5em;
+  color: #333;
+}
+.services-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.column {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+.column:hover {
+  transform: scale(1.05);
+}
+.column ul {
+  list-style-type: none;
+  padding: 0;
+}
+.column li {
+  margin-bottom: 15px;
+  font-size: 1.1em;
+}
+.column li i {
+  margin-right: 10px;
+  color: rgb(143, 7, 7);
+}
+.column strong {
+  color: #333;
+}
+.price {
+  color: #999;
+}
+@media (max-width: 600px) {
+  .column {
+    flex: 1 100%;
+  }
+}

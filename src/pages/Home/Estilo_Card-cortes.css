@@ -1,0 +1,82 @@
+#galeria {
+  background-color: #ffffff;
+  width: 100%;
+  gap: 15px;
+}
+
+#galeria h2 {
+  margin-bottom: 20px;
+  font-size: 2.5em;
+  color: #333;
+}
+
+.galeria-img {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.galeria-coluna1,
+.galeria-coluna2,
+.galeria-coluna3,
+.galeria-coluna4,
+.galeria-card {
+  margin: 0; /* Remove qualquer margem */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 0;
+}
+
+.galeria-coluna2 {
+  margin-top: 0px;
+}
+
+@media screen and (max-width: 700px) {
+  .galeria-coluna2 {
+    margin-top: 0px;
+  }
+  .galeria-coluna1,
+  .galeria-coluna2,
+  .galeria-coluna3,
+  .galeria-coluna4 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .galeria-card {
+    width: 150px; /* largura do card */
+    border: 1px solid #ccc;
+    height: 150px !important;
+    border-radius: 8px;
+    overflow: hidden; /* para garantir que a imagem não ultrapasse os limites do card */
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .galeria-card {
+    width: 180px; /* largura do card */
+    border: 1px solid #ccc;
+    height: 180px !important;
+    border-radius: 8px;
+    overflow: hidden; /* para garantir que a imagem não ultrapasse os limites do card */
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .galeria-card {
+    width: 290px; /* largura do card */
+    border: 1px solid #ccc;
+    height: 290px !important;
+    border-radius: 8px;
+    overflow: hidden; /* para garantir que a imagem não ultrapasse os limites do card */
+  }
+}
+
+.galeria-card img {
+  width: 100%; /* a imagem ocupará 100% da largura do card */
+  height: 100%; /* altura será ajustada automaticamente para manter a proporção */
+  display: block; /* remove espaços em branco abaixo da imagem */
+} /* Estilos para o modal */

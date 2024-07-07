@@ -1,0 +1,68 @@
+{
+  "Galeria_De_Imagens": [
+    { "Endereco_Da_Imagem": "./img/corte-1.jpg" },
+    { "Endereco_Da_Imagem": "./img/corte-2.jpg" },
+    { "Endereco_Da_Imagem": "./img/corte-3.jpg" },
+    { "Endereco_Da_Imagem": "./img/corte-4.jpg" },
+    { "Endereco_Da_Imagem": "./img/corte-5.jpg" },
+    { "Endereco_Da_Imagem": "./img/corte-6.jpg" },
+    { "Endereco_Da_Imagem": "./img/corte-7.jpg" },
+    { "Endereco_Da_Imagem": "./img/corte-8.jpg" },
+    { "Endereco_Da_Imagem": "./img/corte-9.jpg" },
+    { "Endereco_Da_Imagem": "./img/corte-10.jpg" },
+    { "Endereco_Da_Imagem": "./img/corte-11.jpg" },
+    { "Endereco_Da_Imagem": "./img/corte-12.jpg" },
+    { "Endereco_Da_Imagem": "./img/corte-13.jpg" },
+    { "Endereco_Da_Imagem": "./img/corte-14.jpg" },
+    { "Endereco_Da_Imagem": "./img/corte-15.jpg" },
+    { "Endereco_Da_Imagem": "./img/corte-16.jpg" },
+    { "Endereco_Da_Imagem": "./img/corte-17.jpg" },
+    { "Endereco_Da_Imagem": "./img/corte-18.jpg" },
+    { "Endereco_Da_Imagem": "./img/corte-19.jpg" },
+    { "Endereco_Da_Imagem": "./img/corte-20.jpg" },
+    { "Endereco_Da_Imagem": "./img/corte-21.jpg" },
+    { "Endereco_Da_Imagem": "./img/corte-22.jpg" },
+    { "Endereco_Da_Imagem": "./img/corte-23.jpg" },
+    { "Endereco_Da_Imagem": "./img/corte-24.jpg" }
+  ],
+  "Camisetas_Vendidas": [
+    {
+      "Endereco_Da_Imagem": "./img/Camiseta_Azul_Escuro.png",
+      "Preco": "",
+      "Descricao": "",
+      "Categoria": "Premium"
+    },
+
+    {
+      "Endereco_Da_Imagem": "./img/Camiseta_Vermelha.png",
+      "Preco": "",
+      "Descricao": "",
+      "Categoria": "Excelente"
+    },
+    {
+      "Endereco_Da_Imagem": "./img/Camiseta_Vermelha_De_Botao.png",
+      "Preco": "",
+      "Descricao": "",
+      "Categoria": "Excelente"
+    },
+    {
+      "Endereco_Da_Imagem": "./img/Camiseta_Vermelha_De_Botao.png",
+      "Preco": "",
+      "Descricao": "",
+      "Categoria": "Otima"
+    },
+    {
+      "Endereco_Da_Imagem": "./img/Camiseta_Preta.png",
+      "Preco": "",
+      "Descricao": "",
+      "Categoria": "Premium"
+    },
+
+    {
+      "Endereco_Da_Imagem": "./img/Camiseta_Vermelha.png",
+      "Preco": "",
+      "Descricao": "",
+      "Categoria": "Otima"
+    }
+  ]
+}
